@@ -1,3 +1,13 @@
+
+## Arrow Fusion
+https://github.com/apache/arrow-datafusion/blob/master/datafusion/docs/cli.md
+
+```shell
+git clone https://github.com/apache/arrow-datafusion
+cd arrow-datafusion/datafusion-cli
+cargo run --release
+```
+
 ```
 datafusion-cli 
 ```
@@ -19,3 +29,7 @@ select count(*) from coinbase;
 ```sql
 select avg(price), sum(amount) from coinbase;
 ```
+
+
+## Balista
+https://ballistacompute.org/docs/
